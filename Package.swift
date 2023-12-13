@@ -40,7 +40,8 @@ let package = Package(
                 .product(name: "FirebaseRemoteConfig", package: "firebase-ios-sdk"),
                 .product(name: "FirebaseStorage", package: "firebase-ios-sdk"),
             ],
-            path: "Sources/TestController"
+//            path: "Sources/TestController"
+            path: "Sources"
         ),
         .testTarget(
             name: "DependenciesPackageTests",
