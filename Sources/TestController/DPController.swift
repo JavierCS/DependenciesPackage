@@ -2,7 +2,7 @@ import Foundation
 import UIKit
 
 public class DPController: UIViewController {
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         
         view.backgroundColor = UIColor.blue
